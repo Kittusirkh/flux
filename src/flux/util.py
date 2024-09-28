@@ -25,9 +25,9 @@ class ModelSpec:
 
 configs = {
     "flux-dev": ModelSpec(
-        repo_id="black-forest-labs/FLUX.1-dev",
-        repo_flow="flux1-dev.safetensors",
-        repo_ae="ae.safetensors",
+        repo_id="Enhanceaiteam/MidFlow",
+        repo_flow="midflow_fp16_low.safetensors",
+        repo_ae="vae/vae.safetensors",
         ckpt_path=os.getenv("FLUX_DEV"),
         params=FluxParams(
             in_channels=64,
